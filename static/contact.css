@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500&display=swap');
+
+* {
+ margin: 0px;
+}
+
+.contact{
+ background-color: rgba(8, 7, 7, 0.2) ;
+ height: 545px;
+}
+.heading{text-align: center;
+  font-family: 'Noto Serif', serif;
+  font-weight: 500;
+  font-size: large;
+  font-size: 4rem;
+   padding-top: 35px;
+   padding-bottom: 15px;
+}
+form{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+input , textarea{
+ margin: 12px;
+ width: 30%;
+ border: 2px solid black;
+ border-radius: 6px;
+}
+
+input:hover{
+ height:25px;
+ width:32%;
+}
+
+.btn{
+padding: 9px 12px;
+font-size: 1.2rem;
+font-weight: bold;
+background: rgb(33, 15, 91);
+color:white;
+box-shadow: 5px 5px 10px grey;
+border: 3px solid black;
+border-radius: 15px;
+}
+.btn:hover{
+ font-size: 1.3rem;
+ cursor: pointer;
+}
